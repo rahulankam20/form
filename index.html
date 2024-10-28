@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+<style>
+    header,nav{
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-left: 2px solid saddlebrown;
+            border-right: 2px solid saddlebrown;
+        }
+            a{
+            cursor: pointer;
+            color: white;
+            text-align: right;
+        }
+        header{
+            border-top:2px solid saddlebrown; ;
+        }
+        nav{
+            border-bottom:2px solid saddlebrown; ;
+        }
+        .name{
+            background-color: rgba(239, 243, 229, 0.797);
+            padding: 5px;
+        }
+        input[type="text"],input[type="email"]{
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        img{
+            padding: 8px;
+            margin: 5px;
+            border: 2px dotted yellowgreen;
+        }
+        .required{
+            color: orangered;
+        }
+        p{
+            padding: 7px;
+        }
+    </style></head>
+<header>
+     <div>
+       <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;"><b style="padding: 1px;text-shadow: 2px 2px 2px black;">Ankam's Clothing </b></p>
+        <h1 style="text-align: center;text-shadow: 4px 4px 4px black;">
+            Application Form
+        </h1>
+    </div>
+
+    </header>
+    <nav style="text-align:right;">
+       <div> 
+        <pre style="font-size:15px"><a href="#">Terms And Conditions</a>    <a href="#">About</a></pre>
+        </div>
+    </nav>
+    </div>
+<main>
+    <form>
+    <div class="name">
+      <h2 style="padding: 5px;"><b class="heading">Personal Information</b></h2><hr>
+      <img align="right" src="https://thumbs.dreamstime.com/b/job-opportunity-24549521.jpg" alt="job-opportunity" width="440">
+      <p>First Name :<b class="required">*</b> <input type="text" name="First Name" id="FirstName:"required></p>
+      <p>Last Name :<b class="required" >*</b> <input type="text" Name="Last name" id="lastname"required></p>
+      <p>Address :<b class="required">*</b> <input type="text" name="address" id="address" width="500px" height="200px"required style="width: 50%;"></p>
+      <p>DOB     :<b class="required">*</b> <input type="date" name="DOB" id="DOB"required></p>
+      <p>Gender  :<b class="required">*</b> <input type="radio" name="Male" id="Male"required>Male
+                   <input type="radio" name="Male" id="Male"required>Female</p>
+      <p>Email   :<b class="required">*</b> <input type="email" name="email" id="email"required></p><hr>
+      <h2><b class="heading">Work Details</b></h2><hr>
+      <p>Work Experience :<b class="required">*</b> <input type="text" name="experience" id="experience"></p>
+      <p>Interest : <input type="text" name="interest" id="interest"></p><hr>
+      <h2 style="padding: 5px;"><b class="heading">Payment Details</b></h2><hr>
+      <p>Payment Options :<b class="required">*</b>  <select name="payment_details"id="payment_details" required>
+                           <option value="">
+                            --select payment option--</option>
+                           <option value="Credit Card">Credit Card</option>
+                           <option value="Debit Card">Debit Card</option>
+                           <option value="UPI">UPI</option>
+                           </select></p>
+                           <div style="text-align: center;">
+      <input type="submit" value="Submit" style="background-color: rgb(149, 128, 225);color: rgb(255, 255, 255); border: 0;padding: 8px;border-radius: 4px;width: 200px;text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;box-shadow:3px 3px 3px black ;cursor: pointer;" > </div>      
+
+                        
+
+</div>
+</form>
+</main>
+</html>
